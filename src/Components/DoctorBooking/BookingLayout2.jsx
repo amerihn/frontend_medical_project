@@ -11,7 +11,7 @@ function BookingLayout() {
   const [isSearched, setIsSearched] = useState(false);
 
   const getDoctorsDetails = () => {
-    fetch('https://api.npoint.io/c890cb5358e158b7d070')
+    fetch('https://api.npoint.io/e5f9e0258080e65ea5f3')
     .then(res => res.json())
     .then(data => {
       if (searchParams.get('speciality')) {
